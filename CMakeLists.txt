@@ -2,11 +2,11 @@ set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 set(BUILD_USE_64BITS on)
 
 cmake_minimum_required (VERSION 2.6)
-project (Exercise)
+project (OSG_Exercise)
 
 # The version number.
-set (Exercise_VERSION_MAJOR 1)
-set (Exercise_VERSION_MINOR 0)
+set (OSG_Exercise_VERSION_MAJOR 1)
+set (OSG_Exercise_VERSION_MINOR 0)
 
 set(CMAKE_INSTALL_PREFIX ${PROJECT_SOURCE_DIR})
 

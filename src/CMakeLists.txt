@@ -1,6 +1,6 @@
-SET( TARGET_PREFIX "01_" )
-SET( FOLDER_NAME "01_Introduction" )
-add_subdirectory (01_Introduction)
+SET( TARGET_PREFIX "LO_" )
+SET( FOLDER_NAME "LearnOpenGL" ) 
+add_subdirectory (LearnOpenGL)
 
 SET( TARGET_PREFIX "QSG_" )
 SET( FOLDER_NAME "QSG" )
