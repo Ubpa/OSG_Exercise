@@ -12,14 +12,14 @@
 
 ### 2.1 介绍
 
-此项目是我关于OSG做的练习。
+此项目是关于OSG的练习。
 
 分为4部分
 
-- QSG
-- BG（未写）
-- CB（未写）
-- LearnOpenGL（未完成）
+- QSG（已启动，已完成）
+- BG（未启动）
+- CB（未启动）
+- LearnOpenGL（已启动，未完成）
 
 ---
 
@@ -30,7 +30,7 @@ QSG、BG、CB是与OSG相关的三本书，书籍pdf和自带源码的下载链�
 提取码：2vwy
 ```
 
-项目中关于QSG的部分，源码几乎直接来源于书自带的源码
+项目中关于QSG的部分，源码几乎直接来源于书自带的源码，稍作修改
 
 ---
 
@@ -46,27 +46,33 @@ LearnOpenGL是一个教程，介绍如下
 
 ```
 /OSG_Exercise
-	/CMakePredefinedTargets
-		ALL_BUILD
-		INSTALL
-		ZERO_CHECK
-	/LearnOpenGL
-		/01_Introduction
-			LO_01_01_CreateWindows
-			LO_01_02_Triangle
-			LO_01_03_SimpleScean
-			LO_01_04_Shader
-	/QSG
-		QSG_01_Simple
-		QSG_02_Viewer
-		QSG_03_State
-		QSG_04_TextureMapping
-		QSG_05_Lighting
-		QSG_06_Text
-		QSG_07_Callback
-		QSG_08_FindNode
-		QSG_09_Picking
+  /CMakePredefinedTargets
+    -ALL_BUILD
+    -INSTALL
+    -ZERO_CHECK
+  /LearnOpenGL
+    /01_Introduction
+      -LO_01_01_CreateWindows
+      -LO_01_02_Triangle
+      -LO_01_03_SimpleScean
+      -LO_01_04_Shader
+  /QSG
+    -QSG_01_Simple
+    -QSG_02_Viewer
+    -QSG_03_State
+    -QSG_04_TextureMapping
+    -QSG_05_Lighting
+    -QSG_06_Text
+    -QSG_07_Callback
+    -QSG_08_FindNode
+    -QSG_09_Picking
 ```
+
+### 2.3 ToDo
+
+- LearnOpenGL/02_Light
+- BG
+- CB
 
 # 二、使用方法
 
