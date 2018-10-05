@@ -1,0 +1,4 @@
+set(TARGET_PARTNAME 03_State)
+#多个源文件用 [空格] 分割
+set(STR_TARGET_SOURCES "StateMain.cpp StateSG.cpp")
+QSG_SETUP(${TARGET_PARTNAME} ${STR_TARGET_SOURCES})

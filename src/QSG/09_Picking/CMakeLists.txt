@@ -1,0 +1,4 @@
+set(TARGET_PARTNAME 09_Picking)
+#多个源文件用 [空格] 分割
+set(STR_TARGET_SOURCES "PickingMain.cpp")
+QSG_SETUP(${TARGET_PARTNAME} ${STR_TARGET_SOURCES})

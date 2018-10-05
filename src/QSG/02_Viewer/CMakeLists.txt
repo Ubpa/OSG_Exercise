@@ -1,0 +1,4 @@
+set(TARGET_PARTNAME 02_Viewer)
+#多个源文件用 [空格] 分割
+set(STR_TARGET_SOURCES "ViewerMain.cpp")
+QSG_SETUP(${TARGET_PARTNAME} ${STR_TARGET_SOURCES})
